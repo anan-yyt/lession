@@ -23,7 +23,6 @@ public class SwipeTestCase {
     @Test(priority = 1)
     public void swipeHorizontally(){
         swipePage.clickOnSwipeBtn();
-        Assert.assertTrue(swipePage.wait_SWIPE_HORIZONTAL_TEXT_dislay());
         swipePage.swipeHorizontally();
 
     }

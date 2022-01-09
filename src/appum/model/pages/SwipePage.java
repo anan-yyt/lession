@@ -1,38 +1,36 @@
 package model.pages;
 
-import actions.MobileAction;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import selectors.NavigationSelector;
-import selectors.SwipePageSelector;
+
 
 import java.time.Duration;
 
 
 public class SwipePage {
     private final AppiumDriver<MobileElement> appiumDriver;
-    MobileAction mobileAction;
-    NavigationSelector navigationSelector;
+
     public SwipePage(AppiumDriver<MobileElement> appiumDriver){
         this.appiumDriver = appiumDriver;
-        this.mobileAction = new MobileAction(appiumDriver);
     }
 
     public boolean clickOnSwipeBtn(){
-        return mobileAction.clickOnElm(navigationSelector.swipeElm);
+        
+       MobileElement swipeBtnElm = appiumDriver.findElement(By.xpath("//android.widget.Button[@content-desc='Swipe']"));
+        if(swipeBtnElm!=null){
+            swipeBtnElm.click();
+        }
+        return false;
     }
 
     public boolean wait_SWIPE_HORIZONTAL_TEXT_dislay(){
-        String text = mobileAction.getElement(SwipePageSelector.SWIPE_HORIZONTAL_TEXT).getText();
-        System.out.println("Text : " + text);
-        if(text!=null){
-            return true;
-        }
-        return false;
+      Boolean isDisplayed = appiumDriver.findElement(By.xpath("//android.widget.TextView[@text='Swipe horizontal']")).isDisplayed();
+        return isDisplayed;
 
     }
     public void swipeHorizontally() {
@@ -60,15 +58,13 @@ public class SwipePage {
         final int MAX_SWIPE_TIME = 10;
         int swipeTime = 0;
         while (swipeTime < MAX_SWIPE_TIME) {
-            String text = mobileAction.getElement(SwipePageSelector.TITLE_CONTAINER).getText();
-            System.out.println("TITLE_CONTAINER : " + text);
-            if(text.equals("SUPPORT VIDEOS")){
+            String TITLE_CONTAINER_TEXT = appiumDriver.findElement(By.xpath("//android.view.ViewGroup[@content-desc='slideTextContainer'][1]/android.widget.TextView[1]")).getText();
+            if(TITLE_CONTAINER_TEXT.equals("SUPPORT VIDEOS")){
                 return true;
             }else {
                 swipeHorizontally();
             }
         }
-
         if(swipeTime ==10) {
             throw new RuntimeException("Icon not found");
         }

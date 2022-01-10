@@ -33,7 +33,7 @@ public class SwipeTestCase {
     }
 
     @AfterClass
-    public  void after() {
+    public void after() {
         DriverFactory.stopAppiumServer();
 
     }

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test name="authentication">
+        <classes>
+            <class name="test.authentication.LoginTestWithBaseTest" />
+            <class name="test.authentication.LoginTestWithBaseTest02" />
+        </classes>
+    </test>
+</suite>

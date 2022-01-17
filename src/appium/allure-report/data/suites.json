@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test",
+    "children" : [ {
+      "name" : "Swipe Test",
+      "children" : [ {
+        "name" : "testcases.SwipeTestCase",
+        "children" : [ {
+          "name" : "before",
+          "uid" : "e78f3ff4493d163e",
+          "parentUid" : "9bf49cd87bd3c59da80a21c3963318b6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1642450919173,
+            "stop" : 1642450919177,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "swipeHorizontally",
+          "uid" : "586f665457b9fd5f",
+          "parentUid" : "9bf49cd87bd3c59da80a21c3963318b6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1642450919297,
+            "stop" : 1642450919299,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "swipeBaseOnConditions",
+          "uid" : "a8210905f931d706",
+          "parentUid" : "9bf49cd87bd3c59da80a21c3963318b6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1642450919306,
+            "stop" : 1642450919307,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9bf49cd87bd3c59da80a21c3963318b6"
+      } ],
+      "uid" : "0dc29518dfa7a430f9508ec606b35c76"
+    } ],
+    "uid" : "0b78c9c59ea4f706402d505dad753d3e"
+  } ]
+}

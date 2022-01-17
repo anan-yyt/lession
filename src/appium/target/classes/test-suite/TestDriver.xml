@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test name="authentication" parallel="tests" thread-count="10">
+       <parameter name="udid" value="11031JEC203902"></parameter>
+        <parameter name="systemPort" value="8300"></parameter>
+        <classes>
+            <class name="test.authentication.LoginTestWithBaseTest" />
+        </classes>
+    </test>
+
+    <test name="authentication2" parallel="tests" thread-count="10">
+        <parameter name="udid" value=""></parameter>
+        <parameter name="systemPort" value="8400"></parameter>
+
+        <classes>
+            <class name="test.authentication.LoginTestWithBaseTest02" />
+        </classes>
+    </test>
+</suite>

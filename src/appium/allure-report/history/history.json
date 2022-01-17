@@ -1,0 +1,62 @@
+{
+  "c84da959fde7883abcdd5ea9fa8ecec2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8210905f931d706",
+      "status" : "skipped",
+      "statusDetails" : "The local appium server has not been started. The given Node.js executable: C:\\Program Files\\nodejs\\node.exe Arguments: [C:\\Users\\Yan\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js, --port, 4723, --address, 127.0.0.1] \nProcess output: \u001B[35m[Appium]\u001B[39m Welcome to Appium v1.22.1\r\n\u001B[35m[Appium]\u001B[39m Non-default server args:\r\n\u001B[35m[Appium]\u001B[39m   address: 127.0.0.1\r\n\u001B[35m[HTTP]\u001B[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.\r\nFatal Error: listen EADDRINUSE: address already in use 127.0.0.1:4723\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at doListen (node:net:1520:7)\n    at processTicksAndRejections (node:internal/process/task_queues:84:21)\n\n",
+      "time" : {
+        "start" : 1642450919306,
+        "stop" : 1642450919307,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3766dd02cc866bea6f228d65636f2bde" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e78f3ff4493d163e",
+      "status" : "broken",
+      "statusDetails" : "The local appium server has not been started. The given Node.js executable: C:\\Program Files\\nodejs\\node.exe Arguments: [C:\\Users\\Yan\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js, --port, 4723, --address, 127.0.0.1] \nProcess output: \u001B[35m[Appium]\u001B[39m Welcome to Appium v1.22.1\r\n\u001B[35m[Appium]\u001B[39m Non-default server args:\r\n\u001B[35m[Appium]\u001B[39m   address: 127.0.0.1\r\n\u001B[35m[HTTP]\u001B[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.\r\nFatal Error: listen EADDRINUSE: address already in use 127.0.0.1:4723\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at doListen (node:net:1520:7)\n    at processTicksAndRejections (node:internal/process/task_queues:84:21)\n\n",
+      "time" : {
+        "start" : 1642450919173,
+        "stop" : 1642450919177,
+        "duration" : 4
+      }
+    } ]
+  },
+  "75e9996011ec338488ffadd1d60a9e83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "586f665457b9fd5f",
+      "status" : "skipped",
+      "statusDetails" : "The local appium server has not been started. The given Node.js executable: C:\\Program Files\\nodejs\\node.exe Arguments: [C:\\Users\\Yan\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js, --port, 4723, --address, 127.0.0.1] \nProcess output: \u001B[35m[Appium]\u001B[39m Welcome to Appium v1.22.1\r\n\u001B[35m[Appium]\u001B[39m Non-default server args:\r\n\u001B[35m[Appium]\u001B[39m   address: 127.0.0.1\r\n\u001B[35m[HTTP]\u001B[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.\r\nFatal Error: listen EADDRINUSE: address already in use 127.0.0.1:4723\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at doListen (node:net:1520:7)\n    at processTicksAndRejections (node:internal/process/task_queues:84:21)\n\n",
+      "time" : {
+        "start" : 1642450919297,
+        "stop" : 1642450919299,
+        "duration" : 2
+      }
+    } ]
+  }
+}

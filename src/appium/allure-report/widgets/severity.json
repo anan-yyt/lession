@@ -1,0 +1,31 @@
+[ {
+  "uid" : "e78f3ff4493d163e",
+  "name" : "before",
+  "time" : {
+    "start" : 1642450919173,
+    "stop" : 1642450919177,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "586f665457b9fd5f",
+  "name" : "swipeHorizontally",
+  "time" : {
+    "start" : 1642450919297,
+    "stop" : 1642450919299,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a8210905f931d706",
+  "name" : "swipeBaseOnConditions",
+  "time" : {
+    "start" : 1642450919306,
+    "stop" : 1642450919307,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

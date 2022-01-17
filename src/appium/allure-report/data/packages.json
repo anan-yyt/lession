@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.SwipeTestCase",
+    "children" : [ {
+      "name" : "before",
+      "uid" : "e78f3ff4493d163e",
+      "parentUid" : "5f834bfdda374aee3dac92648db0b2c7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1642450919173,
+        "stop" : 1642450919177,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "swipeHorizontally",
+      "uid" : "586f665457b9fd5f",
+      "parentUid" : "5f834bfdda374aee3dac92648db0b2c7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1642450919297,
+        "stop" : 1642450919299,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "swipeBaseOnConditions",
+      "uid" : "a8210905f931d706",
+      "parentUid" : "5f834bfdda374aee3dac92648db0b2c7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1642450919306,
+        "stop" : 1642450919307,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.SwipeTestCase"
+  } ]
+}

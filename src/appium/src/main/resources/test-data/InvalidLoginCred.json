@@ -1,0 +1,16 @@
+[
+  {
+    "username": "teo",
+    "password": "12345678",
+    "job": {
+      "position": "SWE Level 2"
+    }
+  },
+  {
+    "username": "teo@gmail.com",
+    "password": "",
+    "job": {
+      "position": "SWE Level 1"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-2VNUC84",
+    "children" : [ {
+      "name" : "3268@DESKTOP-2VNUC84.main(1)",
+      "children" : [ {
+        "name" : "swipeHorizontally",
+        "uid" : "586f665457b9fd5f",
+        "parentUid" : "9ba4b277a129b29ba4a53134b2955826",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1642450919297,
+          "stop" : 1642450919299,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "swipeBaseOnConditions",
+        "uid" : "a8210905f931d706",
+        "parentUid" : "9ba4b277a129b29ba4a53134b2955826",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1642450919306,
+          "stop" : 1642450919307,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "before",
+        "uid" : "e78f3ff4493d163e",
+        "parentUid" : "9ba4b277a129b29ba4a53134b2955826",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642450919173,
+          "stop" : 1642450919177,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ba4b277a129b29ba4a53134b2955826"
+    } ],
+    "uid" : "3b2d2d29cb08aad6be7ac7192eab19b0"
+  } ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Tue Jan 18 03:21:59 ICT 2022","Tue Jan 18 03:21:59 ICT 2022","1","Test","Swipe Test","testcases.SwipeTestCase","testcases.SwipeTestCase","swipeBaseOnConditions","swipeBaseOnConditions",""
+"broken","Tue Jan 18 03:21:59 ICT 2022","Tue Jan 18 03:21:59 ICT 2022","4","Test","Swipe Test","testcases.SwipeTestCase","testcases.SwipeTestCase","before","before",""
+"skipped","Tue Jan 18 03:21:59 ICT 2022","Tue Jan 18 03:21:59 ICT 2022","2","Test","Swipe Test","testcases.SwipeTestCase","testcases.SwipeTestCase","swipeHorizontally","swipeHorizontally",""
